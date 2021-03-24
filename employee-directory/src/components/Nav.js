@@ -1,5 +1,11 @@
 import React from "react";
 
-const Nav = () => {
-    
+const Nav = ({ handleSearchChange }) => {
+    return (
+        <nav>
+            
+        </nav>
+    )
 }
+
+export default Nav 
