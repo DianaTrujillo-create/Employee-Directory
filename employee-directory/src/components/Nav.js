@@ -100,5 +100,4 @@ const Nav = ({ handleSearchChange }) => {
     </div>
     )
 }
-
-export default Nav 
+export default Nav
