@@ -62,9 +62,10 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   }));
+ 
 
 const Nav = ({ handleSearchChange }) => {
-    const classes = useStyles();
+    const [classes] = useStyles({});
 
 
     return (
@@ -99,5 +100,6 @@ const Nav = ({ handleSearchChange }) => {
       </AppBar>
     </div>
     )
-}
+};
+
 export default Nav
