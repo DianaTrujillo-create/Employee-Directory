@@ -1,12 +1,14 @@
 import React from "react";
 import './App.css';
-import Nav from "./components/Nav";
+import Header from "./components/header.js";
+import Directory from "./pages/directory";
+import { Container } from "reactstrap";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-    </div>
+    <Container>
+      <Header title="Employee Directory"/>
+    </Container>
   );
 }
 
